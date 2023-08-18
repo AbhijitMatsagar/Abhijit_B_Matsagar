@@ -15,7 +15,7 @@ const FeaturedCard = () => {
                                 <BookDown className='text-white bg-black p-1 rounded-[50%]' />
                             </div>
                             <Image src={el.coverImg} alt='coverImg' className='rounded-2xl h-36' />
-                            <div className='flex justify-between items-center gap-2 p-1 rounded-full text-black bg-white border mr-32 absolute bottom-[-20px] left-2'>
+                            <div className='flex justify-between items-center gap-2 p-1 rounded-full text-black border-[#a3a3a2] border mr-32 absolute bottom-[-20px] left-2'>
                                 <Image src={el.img} alt='image' className='rounded-[50%] h-8 w-8' />
                                 <p className='pr-2'>{el.level}</p>
                             </div>
